@@ -69,8 +69,8 @@ words_count %>%
 ggplot(aes(x=n, y=reorder(Word, n))) +
   geom_bar(stat="identity")
 ```
-![Graph of 30 most frequent 19th century words](https://github.com/fua-bot/Brit-Lit/assets/78167892/e4ea0cd1-eb8b-43cf-aa34-0b70677d77b4)
-![Graph of 30 most frequent 20th century words](https://github.com/fua-bot/Brit-Lit/assets/78167892/f5c86c41-d1fe-4604-aa7f-083213dff494)
+![Graph of 30 most frequent 19th century words](./19Graph.png)
+![Graph of 30 most frequent 20th century words](./20Graph.png)
 
 Using these graphs, we can get a basic sense for common language of the two centuries. In both centuries the words "time", "miss", "people", "looked, "lady", "house", "head", "night", "eyes", "round", "life", "lord", "hand", "door", "left", "sir", "day", "woman", "friend", "told", and "hand\[s\]" all appear in the 30 most frequent words. The words "dear", "father", "mind", "heard", "cried", "half", "found", "love", and "sister" appeared only in the 30 most frequent words of the 19th century. The words "street", "war", "party", "moment", and "fascist" appear only in the 30 most frequent words of the 20th century. 
 
